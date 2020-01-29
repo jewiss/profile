@@ -1,0 +1,72 @@
+body {
+  background-color: #F7F7F7;
+  font-family:'Roboto', sans-serif;;
+  color: #B0BEC5;
+  font-size:16px;
+  line-height:1em;
+}
+
+h1 {
+  color: #78909C;
+}
+
+h2 {
+  color:#90A4AE;
+}
+
+img {
+  border-radius: 50%;
+  width:200px;
+}
+
+.follow {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.follow li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 20px;
+}
+ .follow i {
+  color: rgb(224, 224, 224);
+}
+
+a:hover {
+  color: #E3CFF2;
+}
+
+.container {
+  margin:40px auto;
+  width : 700px;
+}
+
+.card {
+  background:white;
+  border-radius:5px;
+  box-shadow:2px 2px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
